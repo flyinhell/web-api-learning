@@ -1,0 +1,459 @@
+[19/01/25 18:22:56][INFO][com.eland.servlet.KeywordSearchServlet-43] ----keyword Search Start----
+[19/01/25 18:22:56][INFO][com.eland.servlet.KeywordSearchServlet-48] Get keyword
+[19/01/25 18:22:56][INFO][com.eland.servlet.KeywordSearchServlet-53] Get String Json
+[19/01/25 18:22:56][INFO][com.eland.tools.TdsConnect-67] urlEncode
+[19/01/25 18:22:56][INFO][com.eland.servlet.KeywordSearchServlet-61] TDS Connect
+[19/01/25 18:22:57][ERROR][com.eland.tools.TdsConnect-47] Connection refused: connect
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at java.net.Socket.connect(Socket.java:528)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:996)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:932)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:850)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1091)
+	at com.eland.tools.TdsConnect.sendPost(TdsConnect.java:35)
+	at com.eland.servlet.KeywordSearchServlet.doPost(KeywordSearchServlet.java:65)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:641)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:225)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:169)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:999)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:565)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:1812)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[19/01/25 18:22:57][ERROR][com.eland.servlet.KeywordSearchServlet-89] 
+java.lang.NullPointerException
+	at com.eland.servlet.KeywordSearchServlet.doPost(KeywordSearchServlet.java:67)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:641)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:225)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:169)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:999)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:565)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:1812)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[19/01/25 18:23:02][INFO][com.eland.servlet.KeywordSearchServlet-43] ----keyword Search Start----
+[19/01/25 18:23:02][INFO][com.eland.servlet.KeywordSearchServlet-48] Get keyword
+[19/01/25 18:23:02][INFO][com.eland.servlet.KeywordSearchServlet-53] Get String Json
+[19/01/25 18:23:02][INFO][com.eland.tools.TdsConnect-67] urlEncode
+[19/01/25 18:23:02][INFO][com.eland.servlet.KeywordSearchServlet-61] TDS Connect
+[19/01/25 18:23:03][ERROR][com.eland.tools.TdsConnect-47] Connection refused: connect
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at java.net.Socket.connect(Socket.java:528)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:996)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:932)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:850)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1091)
+	at com.eland.tools.TdsConnect.sendPost(TdsConnect.java:35)
+	at com.eland.servlet.KeywordSearchServlet.doPost(KeywordSearchServlet.java:65)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:641)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:225)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:169)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:999)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:565)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:1812)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[19/01/25 18:23:03][ERROR][com.eland.servlet.KeywordSearchServlet-89] 
+java.lang.NullPointerException
+	at com.eland.servlet.KeywordSearchServlet.doPost(KeywordSearchServlet.java:67)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:641)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:225)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:169)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:999)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:565)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:1812)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[19/01/25 18:32:24][INFO][com.eland.servlet.KeywordSearchServlet-43] ----keyword Search Start----
+[19/01/25 18:32:24][INFO][com.eland.servlet.KeywordSearchServlet-48] Get keyword
+[19/01/25 18:32:24][INFO][com.eland.servlet.KeywordSearchServlet-53] Get String Json
+[19/01/25 18:32:24][INFO][com.eland.tools.TdsConnect-67] urlEncode
+[19/01/25 18:32:24][INFO][com.eland.servlet.KeywordSearchServlet-61] TDS Connect
+[19/01/25 18:32:24][ERROR][com.eland.servlet.KeywordSearchServlet-90] 
+java.lang.NullPointerException
+	at com.eland.servlet.KeywordSearchServlet.doPost(KeywordSearchServlet.java:67)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:641)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:225)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:169)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:999)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:565)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:1812)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[19/01/25 18:32:27][INFO][com.eland.servlet.KeywordSearchServlet-43] ----keyword Search Start----
+[19/01/25 18:32:27][INFO][com.eland.servlet.KeywordSearchServlet-48] Get keyword
+[19/01/25 18:32:27][INFO][com.eland.servlet.KeywordSearchServlet-53] Get String Json
+[19/01/25 18:32:27][INFO][com.eland.tools.TdsConnect-67] urlEncode
+[19/01/25 18:32:27][INFO][com.eland.servlet.KeywordSearchServlet-61] TDS Connect
+[19/01/25 18:32:27][ERROR][com.eland.servlet.KeywordSearchServlet-90] 
+java.lang.NullPointerException
+	at com.eland.servlet.KeywordSearchServlet.doPost(KeywordSearchServlet.java:67)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:641)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:225)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:169)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:999)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:565)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:1812)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[19/01/25 18:33:56][INFO][com.eland.servlet.KeywordSearchServlet-43] ----keyword Search Start----
+[19/01/25 18:33:56][INFO][com.eland.servlet.KeywordSearchServlet-48] Get keyword
+[19/01/25 18:33:56][INFO][com.eland.servlet.KeywordSearchServlet-53] Get String Json
+[19/01/25 18:33:56][INFO][com.eland.tools.TdsConnect-67] urlEncode
+[19/01/25 18:33:56][INFO][com.eland.servlet.KeywordSearchServlet-61] TDS Connect
+[19/01/25 18:33:57][ERROR][com.eland.servlet.KeywordSearchServlet-90] 
+java.lang.NullPointerException
+	at com.eland.servlet.KeywordSearchServlet.doPost(KeywordSearchServlet.java:67)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:641)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:225)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:169)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:999)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:565)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:1812)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[19/01/25 18:35:12][INFO][com.eland.servlet.KeywordSearchServlet-43] ----keyword Search Start----
+[19/01/25 18:35:12][INFO][com.eland.servlet.KeywordSearchServlet-48] Get keyword
+[19/01/25 18:35:12][INFO][com.eland.servlet.KeywordSearchServlet-53] Get String Json
+[19/01/25 18:35:12][INFO][com.eland.tools.TdsConnect-67] urlEncode
+[19/01/25 18:35:12][INFO][com.eland.servlet.KeywordSearchServlet-61] TDS Connect
+[19/01/25 18:35:12][ERROR][com.eland.servlet.KeywordSearchServlet-90] 
+java.lang.NullPointerException
+	at com.eland.servlet.KeywordSearchServlet.doPost(KeywordSearchServlet.java:68)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:641)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:225)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:169)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:999)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:565)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:1812)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[19/01/25 18:38:34][INFO][com.eland.servlet.KeywordSearchServlet-43] ----keyword Search Start----
+[19/01/25 18:38:34][INFO][com.eland.servlet.KeywordSearchServlet-48] Get keyword
+[19/01/25 18:38:34][INFO][com.eland.servlet.KeywordSearchServlet-53] Get String Json
+[19/01/25 18:38:34][INFO][com.eland.tools.TdsConnect-67] urlEncode
+[19/01/25 18:38:34][INFO][com.eland.servlet.KeywordSearchServlet-61] TDS Connect
+[19/01/25 18:38:34][ERROR][com.eland.servlet.KeywordSearchServlet-90] 
+java.lang.NullPointerException
+	at com.eland.servlet.KeywordSearchServlet.doPost(KeywordSearchServlet.java:68)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:641)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:225)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:169)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:999)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:565)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:1812)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[19/01/25 18:46:14][INFO][com.eland.servlet.KeywordSearchServlet-43] ----keyword Search Start----
+[19/01/25 18:46:14][INFO][com.eland.servlet.KeywordSearchServlet-48] Get keyword
+[19/01/25 18:46:14][INFO][com.eland.servlet.KeywordSearchServlet-53] Get String Json
+[19/01/25 18:46:14][INFO][com.eland.tools.TdsConnect-67] urlEncode
+[19/01/25 18:46:14][INFO][com.eland.servlet.KeywordSearchServlet-61] TDS Connect
+[19/01/25 18:46:14][ERROR][com.eland.servlet.KeywordSearchServlet-90] 
+java.lang.NullPointerException
+	at com.eland.servlet.KeywordSearchServlet.doPost(KeywordSearchServlet.java:68)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:641)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:225)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:169)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:999)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:565)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:1812)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[19/01/28 09:33:46][INFO][com.eland.servlet.KeywordSearchServlet-43] ----keyword Search Start----
+[19/01/28 09:33:46][INFO][com.eland.servlet.KeywordSearchServlet-43] ----keyword Search Start----
+[19/01/28 09:33:46][INFO][com.eland.servlet.KeywordSearchServlet-48] Get keyword
+[19/01/28 09:33:46][INFO][com.eland.servlet.KeywordSearchServlet-48] Get keyword
+[19/01/28 09:33:46][INFO][com.eland.servlet.KeywordSearchServlet-53] Get String Json
+[19/01/28 09:33:46][INFO][com.eland.servlet.KeywordSearchServlet-53] Get String Json
+[19/01/28 09:33:46][INFO][com.eland.tools.TdsConnect-67] urlEncode
+[19/01/28 09:33:46][INFO][com.eland.servlet.KeywordSearchServlet-61] TDS Connect
+[19/01/28 09:33:46][INFO][com.eland.tools.TdsConnect-67] urlEncode
+[19/01/28 09:33:46][INFO][com.eland.servlet.KeywordSearchServlet-61] TDS Connect
+[19/01/28 09:33:46][ERROR][com.eland.servlet.KeywordSearchServlet-90] 
+java.lang.NullPointerException
+	at com.eland.servlet.KeywordSearchServlet.doPost(KeywordSearchServlet.java:68)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:641)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:225)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:169)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:999)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:565)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:1812)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[19/01/28 09:33:46][ERROR][com.eland.servlet.KeywordSearchServlet-90] 
+java.lang.NullPointerException
+	at com.eland.servlet.KeywordSearchServlet.doPost(KeywordSearchServlet.java:68)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:641)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:225)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:169)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:999)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:565)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:1812)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[19/01/28 09:34:46][INFO][com.eland.servlet.KeywordSearchServlet-43] ----keyword Search Start----
+[19/01/28 09:34:46][INFO][com.eland.servlet.KeywordSearchServlet-48] Get keyword
+[19/01/28 09:34:47][INFO][com.eland.servlet.KeywordSearchServlet-53] Get String Json
+[19/01/28 09:34:47][INFO][com.eland.tools.TdsConnect-67] urlEncode
+[19/01/28 09:34:47][INFO][com.eland.servlet.KeywordSearchServlet-61] TDS Connect
+[19/01/28 09:34:49][INFO][com.eland.servlet.KeywordSearchServlet-43] ----keyword Search Start----
+[19/01/28 09:34:49][INFO][com.eland.servlet.KeywordSearchServlet-48] Get keyword
+[19/01/28 09:34:49][INFO][com.eland.servlet.KeywordSearchServlet-53] Get String Json
+[19/01/28 09:34:49][INFO][com.eland.tools.TdsConnect-67] urlEncode
+[19/01/28 09:34:49][INFO][com.eland.servlet.KeywordSearchServlet-61] TDS Connect
+[19/01/28 09:34:51][INFO][com.eland.servlet.KeywordSearchServlet-73] TDS回傳值(Json)
+[19/01/28 09:34:51][INFO][com.eland.servlet.KeywordSearchServlet-73] TDS回傳值(Json)
+[19/01/28 09:34:57][INFO][com.eland.servlet.KeywordSearchServlet-79] 關鍵字與取得查詢筆數存入DB
+[19/01/28 09:34:57][INFO][com.eland.servlet.KeywordSearchServlet-88] ----keyword Search End----
+[19/01/28 09:34:59][INFO][com.eland.servlet.KeywordSearchServlet-79] 關鍵字與取得查詢筆數存入DB
+[19/01/28 09:34:59][INFO][com.eland.servlet.KeywordSearchServlet-88] ----keyword Search End----
+[19/01/28 09:35:03][INFO][com.eland.servlet.SelectSearchRecordServlet-34] ---- SelectSearchRecord Start----
+[19/01/28 09:35:03][INFO][com.eland.servlet.SelectSearchRecordServlet-40] get keyword
+[19/01/28 09:35:04][INFO][com.eland.servlet.SelectSearchRecordServlet-54] Get KeywordSearchNum & Get ResultNum
+[19/01/28 09:35:04][INFO][com.eland.servlet.SelectSearchRecordServlet-62] 將keyword、keywordSearchNum、resultNum存入model中
+[19/01/28 09:35:04][INFO][com.eland.servlet.SelectSearchRecordServlet-68] ---- SelectSearchRecord End----
+[19/01/28 10:44:48][INFO][com.eland.servlet.KeywordSearchServlet-43] ----keyword Search Start----
+[19/01/28 10:44:48][INFO][com.eland.servlet.KeywordSearchServlet-48] Get keyword
+[19/01/28 10:44:48][INFO][com.eland.servlet.KeywordSearchServlet-53] Get String Json
+[19/01/28 10:44:48][INFO][com.eland.tools.TdsConnect-67] urlEncode
+[19/01/28 10:44:48][INFO][com.eland.servlet.KeywordSearchServlet-61] TDS Connect
+[19/01/28 10:44:49][INFO][com.eland.servlet.KeywordSearchServlet-73] TDS回傳值(Json)
+[19/01/28 10:45:00][INFO][com.eland.servlet.KeywordSearchServlet-79] 關鍵字與取得查詢筆數存入DB
+[19/01/28 10:45:01][INFO][com.eland.servlet.KeywordSearchServlet-88] ----keyword Search End----
+[19/01/28 10:45:23][INFO][com.eland.servlet.SelectSearchRecordServlet-34] ---- SelectSearchRecord Start----
+[19/01/28 10:45:23][INFO][com.eland.servlet.SelectSearchRecordServlet-40] get keyword
+[19/01/28 10:45:44][INFO][com.eland.servlet.SelectSearchRecordServlet-34] ---- SelectSearchRecord Start----
+[19/01/28 10:45:44][INFO][com.eland.servlet.SelectSearchRecordServlet-40] get keyword
+[19/01/28 10:45:44][ERROR][com.eland.servlet.SelectSearchRecordServlet-70] Could not parse mapping document from resource com/eland/entities/SearchRecordEntity.hbm.xml
+org.hibernate.InvalidMappingException: Could not parse mapping document from resource com/eland/entities/SearchRecordEntity.hbm.xml
+	at org.hibernate.cfg.Configuration.addResource(Configuration.java:671)
+	at org.hibernate.cfg.Configuration.parseMappingElement(Configuration.java:1679)
+	at org.hibernate.cfg.Configuration.parseSessionFactory(Configuration.java:1647)
+	at org.hibernate.cfg.Configuration.doConfigure(Configuration.java:1626)
+	at org.hibernate.cfg.Configuration.doConfigure(Configuration.java:1600)
+	at org.hibernate.cfg.Configuration.configure(Configuration.java:1520)
+	at com.eland.tools.HibernateUtil.getSession(HibernateUtil.java:16)
+	at com.eland.dao.SearchRecordDaoImpl.selectSearchRecord(SearchRecordDaoImpl.java:42)
+	at com.eland.servlet.SelectSearchRecordServlet.doPost(SelectSearchRecordServlet.java:43)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:641)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:225)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:169)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:999)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:565)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:1812)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.hibernate.InvalidMappingException: Could not parse mapping document from input stream
+	at org.hibernate.cfg.Configuration.addInputStream(Configuration.java:610)
+	at org.hibernate.cfg.Configuration.addResource(Configuration.java:668)
+	... 26 more
+Caused by: org.dom4j.DocumentException: Connection timed out: connect Nested exception: Connection timed out: connect
+	at org.dom4j.io.SAXReader.read(SAXReader.java:484)
+	at org.hibernate.cfg.Configuration.addInputStream(Configuration.java:601)
+	... 27 more
+[19/01/28 10:45:54][INFO][com.eland.servlet.SelectSearchRecordServlet-54] Get KeywordSearchNum & Get ResultNum
+[19/01/28 10:45:54][INFO][com.eland.servlet.SelectSearchRecordServlet-62] 將keyword、keywordSearchNum、resultNum存入model中
+[19/01/28 10:45:55][INFO][com.eland.servlet.SelectSearchRecordServlet-68] ---- SelectSearchRecord End----
+[19/01/28 10:49:13][INFO][com.eland.servlet.SelectSearchRecordServlet-34] ---- SelectSearchRecord Start----
+[19/01/28 10:49:13][INFO][com.eland.servlet.SelectSearchRecordServlet-40] get keyword
+[19/01/28 10:49:38][ERROR][com.eland.servlet.SelectSearchRecordServlet-70] Could not parse mapping document from resource com/eland/entities/SearchRecordEntity.hbm.xml
+org.hibernate.InvalidMappingException: Could not parse mapping document from resource com/eland/entities/SearchRecordEntity.hbm.xml
+	at org.hibernate.cfg.Configuration.addResource(Configuration.java:671)
+	at org.hibernate.cfg.Configuration.parseMappingElement(Configuration.java:1679)
+	at org.hibernate.cfg.Configuration.parseSessionFactory(Configuration.java:1647)
+	at org.hibernate.cfg.Configuration.doConfigure(Configuration.java:1626)
+	at org.hibernate.cfg.Configuration.doConfigure(Configuration.java:1600)
+	at org.hibernate.cfg.Configuration.configure(Configuration.java:1520)
+	at com.eland.tools.HibernateUtil.getSession(HibernateUtil.java:16)
+	at com.eland.dao.SearchRecordDaoImpl.selectSearchRecord(SearchRecordDaoImpl.java:42)
+	at com.eland.servlet.SelectSearchRecordServlet.doPost(SelectSearchRecordServlet.java:43)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:641)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:225)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:169)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:999)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:565)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:1812)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.hibernate.InvalidMappingException: Could not parse mapping document from input stream
+	at org.hibernate.cfg.Configuration.addInputStream(Configuration.java:610)
+	at org.hibernate.cfg.Configuration.addResource(Configuration.java:668)
+	... 26 more
+Caused by: org.dom4j.DocumentException: Connection timed out: connect Nested exception: Connection timed out: connect
+	at org.dom4j.io.SAXReader.read(SAXReader.java:484)
+	at org.hibernate.cfg.Configuration.addInputStream(Configuration.java:601)
+	... 27 more
+[19/01/28 10:50:25][INFO][com.eland.servlet.SelectSearchRecordServlet-34] ---- SelectSearchRecord Start----
+[19/01/28 10:50:25][INFO][com.eland.servlet.SelectSearchRecordServlet-40] get keyword
+[19/01/28 10:50:34][INFO][com.eland.servlet.SelectSearchRecordServlet-54] Get KeywordSearchNum & Get ResultNum
+[19/01/28 10:50:34][INFO][com.eland.servlet.SelectSearchRecordServlet-62] 將keyword、keywordSearchNum、resultNum存入model中
+[19/01/28 10:50:34][INFO][com.eland.servlet.SelectSearchRecordServlet-68] ---- SelectSearchRecord End----
